@@ -1,0 +1,14 @@
+-------Introduction------
+This is an JavaFX application to edit text. It has the following major functions:
+1. Spell check and correction suggestion. The app can find out misspelled words and suggest most related words to correct them;
+2. Word typeahead when inputing;
+3. Similar article generation; The app can generator similar articles by training with input text based on Markov chain text model;
+4. Score the readability of the input article (Flesch Index);
+5. A tool to calculate the word path of morphing from one word into another;
+
+-------Instruction--------
+App entrence: application/MainApp
+
+-------Used API-----------
+org.fxmisc.richtext
+https://github.com/ottypes/rich-text
